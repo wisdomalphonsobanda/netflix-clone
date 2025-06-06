@@ -1,0 +1,18 @@
+*{
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.posters{
+    display: flex;
+    margin: 0px 20px;
+    overflow-x: scroll;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+  margin: 0px 5px;
+}
